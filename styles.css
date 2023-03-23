@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+/* Set up the grid container */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 0;
+}
+
+/* Optional: add some styling to the grid items */
+.item {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
